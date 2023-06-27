@@ -1,0 +1,8 @@
+{
+  "title" : "Prompt generator",
+  "yourDescription" : "Your description",
+  "designStyle" : "Design style",
+  "aspectRatio" : "Ratio",
+  "copyToClipboard" : "copy prompt to clipboard",
+  "copiedToClipboard" : "prompt copied to clipboard !"
+}

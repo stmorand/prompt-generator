@@ -1,0 +1,98 @@
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+h1 {
+  font-family: 'Grandiflora One', serif;
+  text-align:center;width: 100%;}
+textarea {
+  background-color: var(--main-color-a-5);
+  border-radius: 14px;
+  border: none;
+  color: var(--secondary-color);
+  font-size: 20px;
+  width: 98%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none; /*remove the resize handle on the bottom right*/
+}
+button.btn {
+  padding: 20px 60px;
+  margin: 50px auto;
+  display: block;
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--main-color-a-8);
+  cursor: pointer;
+  font-family: 'Grandiflora One', serif;
+  font-size: 20px;
+  opacity: 0.9;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+button.btn:hover {
+  opacity: 1;
+}
+
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 200px;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: var(--main-color-a-5);
+  color: var(--secondary-color);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: -34px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--main-color-a-5) transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;margin-bottom:-8px;}
+  to {opacity: 1;margin-bottom:0;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;margin-bottom:-8px;}
+  to {opacity:1 ;margin-bottom:0;}
+}

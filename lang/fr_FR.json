@@ -1,0 +1,8 @@
+{
+  "title" : "Générateur de prompt",
+  "yourDescription" : "Votre description",
+  "designStyle" : "Style graphique",
+  "aspectRatio" : "Ratio",
+  "copyToClipboard" : "copier le prompt dans le presse-papier",
+  "copiedToClipboard" : "prompt copié !"
+}

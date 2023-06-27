@@ -1,0 +1,76 @@
+{
+  "design-type" : [
+    {
+      "name": "highly detailed, f/1.4, 50mm lens, detailed facial features, black and white, cinematic lighting, cinematic photography",
+      "text-fr": "portrait noir et blanc",
+      "text-en": "black and white portrait"
+    },
+    {
+      "name": "texture detail, sharp detail, 8k, cinematic, hyper realistic, hyper detailed , Canon EOS MARK IV Camera, Lens: Canon RF 24-70mm f/2.8L IS USM, Focal Length: 50mm, Aperture: f/4, Shutter Speed: 1/250 second, ISO Sensitivity: 100, Exposure Mode: Manual, Metering Mode: Center Weighted, White Balance: Auto, vfx -- ar 3:2 --chaos 1250 -- raw style --seed 2500",
+      "text-fr": "ultra détaillé et réaliste",
+      "text-en": "highly detailed and realistic"
+    },
+    {
+      "name": "symmetrical, flat icon design",
+      "text-fr": "symmetrical, flat icon design",
+      "text-en": "symmetrical, flat icon design"
+    },
+    {
+      "name": "illustration style, adobe illustrator, cartoon, drawing, digital art, 2d",
+      "text-fr": "Cartoon",
+      "text-en": "Cartoon"
+    },
+    {
+      "name": "black and white, early 1920s style comic, written in ink",
+      "text-fr": "Encre noire",
+      "text-en": "Black ink"
+    },
+    {
+      "name": "clean lines art, fine line art",
+      "text-fr": "Effet coloriage",
+      "text-en": "Drawing effect"
+    },
+    {
+      "name": "16-bit",
+      "text-fr": "16-bit",
+      "text-en": "16-bit"
+    },
+    {
+      "name": "Layered paper",
+      "text-fr": "Layered paper",
+      "text-en": "Layered paper"
+    },
+    {
+      "name": "cinematic photography",
+      "text-fr": "cinematic photography",
+      "text-en": "cinematic photography"
+    },
+    {
+      "name": "highly detailed, cinematic photography, 4k",
+      "text-fr": "photographie détaillée",
+      "text-en": "detailed photography"
+    },
+    {
+      "name": "Isometric",
+      "text-fr": "Isometric",
+      "text-en": "Isometric"
+    }
+  ],
+  "aspect-ratio" : [
+    {
+      "name" : "--ar 3:2",
+      "text-fr": "Rectangle horizontal (3:2)",
+      "text-en": "Horizontal rectangle (3:2)"
+    },
+    {
+      "name" : "--ar 2:3",
+      "text-fr": "Rectangle vertical (2:3)",
+      "text-en": "Vertical rectangle (2:3)"
+    },
+    {
+      "name" : "--ar 1:1",
+      "text-fr": "Carré",
+      "text-en": "Square"
+    }
+  ]
+}

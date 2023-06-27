@@ -9,7 +9,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title><?php echo $translations["title"]; ?></title>
+  <title><?php echo $translations["title"]; ?> - test</title>
   <link rel="stylesheet" href="./scss/inline-form.css">
   <link rel="stylesheet" href="./scss/prompt-generator.css">
   <link rel="stylesheet" href="./scss/inline-theme.css">

@@ -3,8 +3,34 @@
   max-width: 980px;
 }
 
+.footer {
+  background-color: #593C36;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.footer div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer div a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer div a:hover {
+  color: #F7DAC1;
+  text-decoration: underline;
+}
+
 h1 {
   font-family: "Grandiflora One", serif;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 2.4em;
   text-align: center;
   width: 100%;
 }
@@ -107,6 +133,15 @@ button.btn:hover {
   to {
     opacity: 1;
     margin-bottom: 0;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .footer {
+    grid-template-columns: auto auto auto auto;
+  }
+  .footer img {
+    margin-top: -10px;
   }
 }
 

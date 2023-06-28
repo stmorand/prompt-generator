@@ -80,6 +80,6 @@
   <div><a href="https://www.stephanmorand.com/about/">Qui suis-je ?</a></div>
   <div><a href="https://portfolio.morand.pro">Autres projets</a></div>
   <div><a href="https://github.com/stmorand/prompt-generator">Code source (github)</a></div>
-<footer>
+</div>
 </body>
 </html>

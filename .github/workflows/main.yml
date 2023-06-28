@@ -29,8 +29,8 @@ jobs:
       - name: SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
-          username: 1928s_stephan
-          server: 1928s.ftp.infomaniak.com
+          username: ${{ secrets.USERNAME }}
+          server: ${{ secrets.SERVERNAME }}
           port: 22 # default is 22
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
  
@@ -40,7 +40,7 @@ jobs:
           # files will copy to under remote_path
           if: ${{ github.ref == 'refs/heads/test' }}
           
-          remote_path: /home/clients/1a2496bd3a92ce9f46e83d7259f7d2b7/sites/${{ env.URL_PREFIX }}portfolio.morand.pro/prompt-generator
+          remote_path: ${{ secrets.SITEPATH }}${{ env.URL_PREFIX }}portfolio.morand.pro/prompt-generator
           
           # sftp args
           args: '-o ConnectTimeout=5'

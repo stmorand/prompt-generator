@@ -74,8 +74,12 @@
     await sleep(1000);
     popup.classList.toggle("show");
   }
-
-
 </script>
+<div class="footer">
+  <div><a href="https://stephanmorand.com"><img src="./img/logo-white.png" width="140" height="50" alt="logo stephan morand" /></a></div>
+  <div><a href="https://www.stephanmorand.com/about/">Qui suis-je ?</a></div>
+  <div><a href="https://portfolio.morand.pro">Autres projets</a></div>
+  <div><a href="https://github.com/stmorand/prompt-generator">Code source (github)</a></div>
+<footer>
 </body>
 </html>
